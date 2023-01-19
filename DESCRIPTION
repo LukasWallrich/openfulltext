@@ -1,0 +1,21 @@
+Type: Package
+Package: openfulltext
+Title: Functions to find open-access fulltext links and retrieve fulltext for academic papers
+Version: 0.0.9000
+Authors@R: 
+    person(given = "Lukas",
+           family = "Wallrich",
+           role = c("aut", "cre"),
+           email = "lukas.wallrich@gmail.com")
+Description: retrieves fulltext links for academic papers from various sources based on DOIs, 
+     and then also attempts to download the actual full text.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    attempt,
+    curl,
+    httr,
+    jsonlite
